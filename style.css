@@ -48,3 +48,6 @@ body{
 .noBottomBorder{
     border-bottom: 0;
 }
+#result{
+    display: none;
+}
