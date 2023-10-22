@@ -9,7 +9,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/58/60/tic-tac-toe-seamless-wallpaper-vector-7985860.jpg");
+    background-image: url("./utilities/tictactoe_bgWallpaper.jpg");
     background-position: center;
     background-repeat: no-repeat; 
     backdrop-filter: invert(75%);
@@ -86,4 +86,7 @@ button{
     font-size: 5rem;
     font-weight: bolder;
 
+}
+.gif{
+    display: none;
 }
