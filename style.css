@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
 }
 body{
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/58/60/tic-tac-toe-seamless-wallpaper-vector-7985860.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    backdrop-filter: invert(75%);
+    /* background-size: cover; */
+    /* backdrop-filter: sepia(90%); */
+    /* backdrop-filter: blur(3px); */
+
 
 }
 .gameContainer{
@@ -23,13 +34,14 @@ body{
     grid-template-rows: repeat(3,1fr);
 }
 .item{
-    border: 2px solid black;
+    border: 5px solid black;
+    /* border-image:linear-gradient(45deg, rgb(228, 202, 4), rgb(227, 14, 14)) 1; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .item:hover{
-    background-color: rgba(226, 175, 234, 0.877);
+    /* background-color: rgba(226, 175, 234, 0.877); */ 
     transition-property:background-color ;
     transition-duration: 0.8s;
    transition-timing-function: ease-in-out;
@@ -68,4 +80,10 @@ button{
     width: 9rem;
     height: 3rem;
     background-color: aqua;
+}
+
+.textColour{
+    font-size: 5rem;
+    font-weight: bolder;
+
 }
